@@ -1,0 +1,75 @@
+.reef {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.666666;
+}
+
+.buoy {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+
+.skull {
+  box-sizing: border-box;
+  font-size: 1em;
+  line-height: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  padding: 0;
+}
+
+.eyeballs {
+  box-sizing: border-box;
+  display: block;
+  font-family: inherit;
+  font-weight: bold;
+  text-decoration: overline;
+  text-align: center;
+  font-size: 25vw;
+  line-height: 1;
+  padding: 1rem;
+  margin: 0 0 1rem;
+}
+
+.eyeballs::first-letter {
+  letter-spacing: 1ch;
+}
+
+.dive {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 2rem;
+  padding: 1rem;
+}
+
+.flood {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.swoosh {
+  box-sizing: border-box;
+  padding: 1rem;
+  max-width: 18em;
+}
+
+.surge {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
+}
+
+.denials {
+  box-sizing: border-box;
+  display: inline-block;
+  font-style: inherit;
+}
+
+.stress {
+  font-style: inherit;
+  font-weight: bolder;
+}
